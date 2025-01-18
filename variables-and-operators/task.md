@@ -30,7 +30,7 @@ Extend the functionality from the previous task to:
 
 **Hint!** If you want to align the results, you can use `padStart()` function to add empty spaces to make the string equal length. (OPTIONAL)
 
-## 1.4 Task 4: Basic Calculations
+## Task 4: Basic Calculations
 
 Create a simple program with the following functionality:
 
