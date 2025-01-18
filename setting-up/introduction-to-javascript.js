@@ -11,7 +11,7 @@ JavaScript is the official language of the web.
  - JavaScript has no relation to Java; the name was a marketing strategy.
 */
 
-console.log("Java is to JavaScript as car is to carpet."); // A humorous comparison by Chris Heilman.
+console.log("Java is to JavaScript as car is to carpet."); // By Chris Heilman.
 
 /*
 Features of JavaScript
