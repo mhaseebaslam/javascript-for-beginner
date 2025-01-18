@@ -11,7 +11,7 @@ By the end of this course, you will:
 - Understand the high-level differences between common software development methodologies.
 - Recognize the need for and use of various development tools.
 
-> **Pro Tip**: Programming is learned by doing. Allocate sufficient time for exercises outside class hours.
+> **Pro Tip**: Programming is learned by doing. Allocate sufficient time for coding.
 
 ## Topics Overview
 
