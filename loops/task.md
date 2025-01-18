@@ -47,6 +47,6 @@ Create a program that prints a triangle. The program asks the user for the heigh
 
 Create a program that asks the user for a string and then prints it out from the last letter to the first. Use a `for` loop.
 
-## 3Task 10: toMixedCase()
+## Task 10: toMixedCase()
 
 Create a program that asks the user for a string and then prints it out so that all odd characters are in uppercase and all even characters are in lowercase. Use a `for` loop.
