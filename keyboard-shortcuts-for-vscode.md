@@ -146,8 +146,8 @@
 
 ## Integrated terminal
 
-- `Ctrl+`` : Show integrated terminal
-- `Ctrl+Shift+`` : Create new terminal
+- `Ctrl+` ` : Show integrated terminal
+- `Ctrl+Shift+` ` : Create new terminal
 - `Ctrl+C` : Copy selection
 - `Ctrl+V` : Paste into active terminal
 - `Ctrl+↑ / ↓` : Scroll up/down
@@ -156,5 +156,4 @@
 
 ## Additional Resources
 
-For macOS, the link is [here](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf).
-For Linux, the link is [here](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf).
+For macOS, the link is [here](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf). For Linux, the link is [here](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf).
