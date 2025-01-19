@@ -18,13 +18,10 @@ By the end of this course, you will:
 1. **Intro to Programming & Software Development**:
    - Setting up your environment
    - Basics of software development
-   - Introduction to Git and GitHub
 2. **Variables, Conditionals, Loops, and Arrays**:
    - Fundamental programming concepts with exercises.
 3. **Methods and Functions**:
    - Functions, strings, math methods, and quizzes.
-4. **Advanced Git**:
-   - Local and remote branching, collaborative workflows.
 
 ## Useful Links
 
