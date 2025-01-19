@@ -19,9 +19,9 @@ By the end of this course, you will:
    - Setting up your environment
    - Basics of software development
 2. **Variables, Conditionals, Loops, and Arrays**:
-   - Fundamental programming concepts with exercises.
+   - Fundamental programming concepts with tasks.
 3. **Methods and Functions**:
-   - Functions, strings, math methods, and quizzes.
+   - Functions, strings, and math methods.
 
 ## Useful Links
 
