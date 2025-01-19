@@ -67,7 +67,6 @@ function getFullName(firstname, lastname) {
 // Example Function Definitions and Calls
 
 // Function that prints out text "Hello!"
-
 function sayHello() {
   console.log("Hello!");
 }
@@ -76,7 +75,6 @@ function sayHello() {
 sayHello();
 
 // Function that takes two numbers as input, calculates the sum of these two, and prints out the result.
-
 function sumNumbers(num1, num2) {
   let sum = num1 + num2;
   console.log("The sum is: " + sum);
@@ -86,18 +84,15 @@ function sumNumbers(num1, num2) {
 sumNumbers(5, 10);
 
 // Function that takes two numbers as input, calculates the sum of given numbers, and returns the result.
-
 function calculateSum(num1, num2) {
   return num1 + num2;
 }
 
 // When the function is called, use the returned value to print out the result
-
 let result = calculateSum(5, 10);
 console.log("The result is: " + result);
 
 // Additional Example: Function to Calculate Full Name
-
 function getFullName(firstname, lastname) {
   return firstname + " " + lastname;
 }
