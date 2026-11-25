@@ -1,0 +1,14 @@
+{
+  "name": "javascript-for-beginners",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runnable JavaScript examples and exercises for beginners.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "node --check setting-up/intro_to_programming.js && node --check setting-up/introduction-to-javascript.js && node --check variables-and-operators/variables-and-operators.js && node --check conditionals/conditionals.js && node --check loops/loops.js && node --check arrays/arrays.js && node --check functions/functions.js",
+    "examples": "node setting-up/intro_to_programming.js && node setting-up/introduction-to-javascript.js && node variables-and-operators/variables-and-operators.js && node conditionals/conditionals.js && node loops/loops.js && node arrays/arrays.js && node functions/functions.js",
+    "test": "npm run check && npm run examples"
+  }
+}

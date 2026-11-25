@@ -1,43 +1,32 @@
-# Task – Functions
+# Functions
 
-In this Task, you will practice the use of functions. Follow the instructions given to complete small programming tasks.
+Practice defining functions, passing arguments, returning values, and reusing logic.
 
-## Task 1: Letters and Numbers
+## 1. Print letters and numbers
 
-Create a program with two methods:
+Write `printLetters()` to print the letters `a` through `z`, and `printNumbers()` to print `1` through `9`. Call them in this order: letters, numbers, letters. Hint: `String.fromCharCode()` converts a character code to a character.
 
-1. `printLetters()`: prints letters from a-z
-2. `printNumbers()`: prints numbers from 1-9
+## 2. Repeat a sentence
 
-Call the `printLetters()` method first, then `printNumbers()`, and after that, `printLetters()` again.
+Write a function that prints `Lorem ipsum dolor sit amet, consectetur adipiscing elit.` ten times. Call the function once.
 
-**Hint!** To print the letters, you can use Number `toString()` (<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString>)
+## 3. Sum two numbers
 
-## Task 2: Lorem Ipsum
+Write `sum(firstNumber, secondNumber)` so it returns the sum. Call it three times with different arguments and print each result.
 
-Create a method that prints out the Lorem ipsum sentence ("Lorem Ipsum dolor sit amet, consectetur adipiscing elit.") ten times. Call this method.
+## 4. Circumference
 
-## Task 3: Sum of Numbers
+Write a function that returns the circumference of a circle for a given radius. Use `circumference = 2 * Math.PI * radius`, then call it with three different radii.
 
-Create a program that has a method `sum(firstNumber, secondNumber)` that returns the sum of the numbers passed to the method as input parameters. Call this method, save the return value in a variable, and print it out. Do this three times with different variable values.
+## 5. Replace smileys
 
-## Task 4: Circumference of a Circle
+Ask the user for a line of text. Write `replaceSmileys(text)` to replace smiley tokens with words, and `replaceSmileysWithReplacer(text, replacer)` to replace any token with a custom string.
 
-Create a program that calculates the circumference of a circle when the radius is given (circumference = 2 *π* radius). Call this method three times with different parameters and print out the results.
+| Token | Replacement |
+| --- | --- |
+| `:)` or `:-)` | `smiling` |
+| `:(` or `:-(` | `sad` |
+| `;)` or `;-)` | `winking` |
+| `<3` | `love` |
 
-## Task 5: Smileys
-
-Create a program that has the following functionality:
-
-1. Ask the user for a string and store it in a variable.
-2. `replaceSmileys(text)`: Finds smileys in text and replaces them with corresponding text as shown in the table below.
-3. `replaceSmileysWithReplacer(text, replacer)`: Finds smileys in text and replaces them with replacer. You can use regular expressions (<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp>) for this.
-
-Print out the text.
-
-| Smiley      | Replacement |
-|-------------|--------------|
-| *smiling*   | smiling      |
-| *sad*       | sad          |
-| *winkwink*  | winkwink     |
-| <3          | love         |
+Use a regular expression or another clear approach. Test text containing multiple tokens and text with no matches.

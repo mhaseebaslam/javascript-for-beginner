@@ -1,62 +1,38 @@
-// Conditionals
+"use strict";
 
-/* What Is a Loop?
-- As a programmer, you want to be lazy and avoid repetition.
-- If you need the same or similar code multiple times in a row, use a loop.
-- There are multiple loop structures in JS you can use:
-  - while: Condition is checked before the code is run.
-  - do…while: Condition is checked after the code is run.
-  - for: Utilizes an iterator variable.
-- Each of these has their purpose; learn the differences to choose the best one for the situation at hand.*/
-
-// While, Do While
-
-/* while
-- Condition is checked before the code is run.
-- Example:*/
-
-let currentDepth = 0;
-let neededDepth = 5;
-while (currentDepth < neededDepth) {
-  process.stdout.write("Keep digging!");
-  currentDepth++;
+// Use while when repetition depends on a condition.
+let count = 0;
+while (count < 3) {
+  console.log("while:", count);
+  count += 1;
 }
 
-/* do…while
-- Condition is checked after the code is run.
-- Example:*/
-
-currentDepth = 0;
-neededDepth = 5;
+// A do...while loop always runs its body at least once.
+let attempts = 0;
 do {
-  process.stdout.write("\nKeep digging!");
-  currentDepth++;
-} while (currentDepth < neededDepth);
+  console.log("do...while attempt:", attempts + 1);
+  attempts += 1;
+} while (attempts < 2);
 
-/* When to use while and do…while?
-- while: When you have to check the condition before executing the code. In some scenarios, the code might never be run.
-- do…while: When you always want to run the code at least once.*/
-
-/* For is a good choice for scenarios where the number of repetitions is known beforehand and doesn't depend on user input.
-- Syntax is not quite as intuitive as the one for while and do…while so at first, you might not like it as much.
-- Example:*/
-
-for (let i = 0; i < 5; i++) {
-  document.write(i);
+// Use for when the number of repetitions is known.
+for (let number = 1; number <= 5; number += 1) {
+  console.log(`${number} × 3 = ${number * 3}`);
 }
 
-/*  - You can also nest loops.
-    - Example:*/
+const word = "JavaScript";
+console.log("\nCharacters:");
+for (let index = 0; index < word.length; index += 1) {
+  console.log(`${index + 1}. ${word[index]}`);
+}
 
-for (let i = 0; i < 5; i++) {
-  document.write("<p>");
-  for (let j = 0; j < 5; j++) {
-    document.write(i + "." + j + " ");
+function isPalindrome(text) {
+  const normalized = text.toLowerCase().replace(/[^a-z0-9]/g, "");
+  for (let left = 0, right = normalized.length - 1; left < right; left += 1, right -= 1) {
+    if (normalized[left] !== normalized[right]) {
+      return false;
+    }
   }
-  document.write("</p>");
+  return true;
 }
 
-/* By Now, Make Sure You Understand These:
-- What loops are
-- Which one to use
-- How to use them*/
+console.log('\n"Never odd or even" is a palindrome:', isPalindrome("Never odd or even"));

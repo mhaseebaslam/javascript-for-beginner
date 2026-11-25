@@ -1,52 +1,43 @@
-# Workshop 3: Loops (while)-(do-while)
+# Loops
 
-In this task, you will practice the use of loops. Follow the instructions given to complete small programming tasks.
+Practice `while`, `do...while`, and `for` loops. For interactive tasks, use Node.js's built-in `readline` module.
 
-## Task 1: Numbers from 0 to 20
+## 1. Count with `while`
 
-Create a code that prints out numbers from 0 to 20. Use a `while` loop.
+Print the integers from `0` through `20` using a `while` loop.
 
-## Task 2: Numbers from 0 to 20
+## 2. Count with `do...while`
 
-Create the same functionality but this time use a `do-while` loop.
+Print the same sequence using a `do...while` loop.
 
-## Task 3: Looping through Strings
+## 3. Inspect a string
 
-Create a program with the following functionality:
+Ask the user for a string and print each character with its position, starting at `1`. Consider what should happen for an empty string.
 
-1. Ask the user to enter a string.
-2. Loop through the string and print out the string letter by letter saying “1. character is [first letter of given string.]” **Hint!** You might need the following String methods: `charAt()`, `trim()` and property `length`. Check them out in the documentation.
+## 4. Multiplication table
 
-## Task 4: Multiplication Table
+Ask for a number and print its multiplication table from `1` to `10`.
 
-Ask the user to enter a number and then print out the corresponding multiplication table using a loop. **Optional:** Try to make the printing according to a specific format. You might use `util.format`, `padStart()` and `padEnd()` to achieve this.
+## 5. Countdown
 
-## Task 5: Countdown
+Print the integers from `10` down to `0`.
 
-Print out numbers from 10 to 0 using a loop.
+## 6. Palindrome
 
-## Task 6: Palindrome
+Ask for a word or phrase and check whether it reads the same forward and backward. Ignore letter case, spaces, and punctuation; for example, `Never odd or even` is a palindrome.
 
-Ask the user to give a string and then check if it’s a palindrome (a word, phrase, or sequence that reads the same backwards as forwards, e.g., madam or nurses run) or not. Use loops to solve this. **Note:** What happens if "madam" was spelled with a capital letter?
+## 7. Tables from 1 to 10
 
----
+Use nested `for` loops to print multiplication tables for the numbers `1` through `10`.
 
-## Tasks for Loops - For
+## 8. Triangle
 
-In this workshop, you will practice the use of `for` loops. Follow the instructions given to complete small programming tasks.
+Ask for a positive integer height and print a left-aligned triangle of that many rows.
 
-## Task 7: Multiplication Tables 2
+## 9. Reverse a string
 
-Print out multiplication tables for numbers 1-10 using a loop. Use nested `for` loops.
+Ask for a string and print its characters in reverse order using a `for` loop.
 
-## Task 8: Triangle
+## 10. Mixed case
 
-Create a program that prints a triangle. The program asks the user for the height of the triangle and then prints out a triangle.
-
-## Task 9: Other way around
-
-Create a program that asks the user for a string and then prints it out from the last letter to the first. Use a `for` loop.
-
-## Task 10: toMixedCase()
-
-Create a program that asks the user for a string and then prints it out so that all odd characters are in uppercase and all even characters are in lowercase. Use a `for` loop.
+Ask for a string and return a version where characters at odd positions are uppercase and characters at even positions are lowercase. Count positions starting at `1`.

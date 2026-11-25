@@ -1,37 +1,39 @@
-# Workshop 2: Conditionals
+# Conditionals
 
-In this task, you will practice the use of conditionals. Follow the instructions given to complete small programming tasks.
+Practice `if`, `else if`, `else`, comparison operators, logical operators, and `switch`.
 
-## Task 1: Largest Number
+## 1. Compare two numbers
 
-Create a simple program in which the user is asked to give two numbers and then your program prints out which one of them is largest.
+Ask for two numbers and report which is larger, or that they are equal.
 
-## Task 2: Largest Number
+## 2. Compare three numbers
 
-Extend the program from the previous task to ask for three numbers.
+Extend the program to report the largest value. Make sure it handles ties.
 
-## Task 3: Even or Odd
+## 3. Even or odd
 
-Write a simple program to figure out whether a given number is even or odd. **Hint!** You can use modulo (%) to achieve this.
+Ask for an integer and report whether it is even or odd. Reject input that is not a whole number.
 
-## Task 4: Yes or No
+## 4. Yes or no
 
-Write a simple program that asks the user a simple yes or no question and prints out a corresponding message. Remember to also handle invalid input.
+Ask a yes-or-no question. Accept upper- and lowercase answers, and report a helpful message for any other input.
 
-## Task 5: Logical Operators
+## 5. Logical operators
 
-Write a simple program that asks the user for three numbers and create the following logic:
+Ask for three numbers. If any number is `2`, print `You entered the magic number 2!`. Also report which pattern matches:
 
-- If all three numbers are equal print out “You entered three matching numbers”.
-- If all three numbers are different print out “You entered three different numbers”.
-- If the first two are the same, but the third one is different, print out “Third one doesn’t fit”.
-- If any of the numbers is 2, print “You entered the magic number 2!”.
+- All three numbers are equal.
+- All three numbers are different.
+- Exactly two numbers are equal.
 
-## Task 6: Switch Menu
+Use separate conditionals for the magic-number message and the matching pattern so both messages can appear.
 
-Create a program with a simple menu and the following functionality:
+## 6. Switch menu
 
-1. Print hello
-2. Print current date
-3. End program
-Remember to check for invalid input, too. **Hint!** Use switch for this.
+Create a repeating menu that lets the user:
+
+1. Print a greeting.
+2. Print the current date.
+3. Exit the program.
+
+Use `switch` to handle the selection, and display a helpful message for invalid choices.

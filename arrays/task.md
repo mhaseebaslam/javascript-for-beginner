@@ -1,57 +1,42 @@
-# Task: Arrays
+# Arrays
 
-In this task, you will practice the use of arrays. Follow the instructions given to complete small programming tasks.
+Practice creating arrays, using zero-based indexes, iterating, and searching.
 
-## Task 1: Creating and Looping Through an Array
+## 1. Create and inspect arrays
 
-Create a program with the following arrays:
+Create these arrays:
 
-1. an array1 with five items: 5, 7, 32, 31, and 8.
-2. an array2 with three items: 12.4, -13.55, and 67.44,
-3. an array3 with four items: “Helsinki”, “Lissabon”, “New York”, and “Shanghai”.
+- `array1`: `5`, `7`, `32`, `31`, `8`
+- `array2`: `12.4`, `-13.55`, `67.44`
+- `array3`: `"Helsinki"`, `"Lisbon"`, `"New York"`, `"Shanghai"`
 
-Then print out the following:
+Then:
 
-- “The value in the index number 3 is: “ and the value from the array3.
-- “The fourth item in the int array is: “ and the value from the array1.
-- “In the array2 there are xx items” where xx is the size of the array2.
-- The whole content of the array1 with a loop.
-- The whole content of the array2 from the last item to the first.
-- Lastly, in a loop go through the array3 and set all the values to be “empty” and print it out as a comma separated string.
+- Print the value at index `3` of `array3` (remember, indexes start at `0`).
+- Print the fourth item of `array1`.
+- Print the number of items in `array2`.
+- Print every item in `array1` with a loop.
+- Print `array2` from last item to first.
+- Replace every item in `array3` with `"empty"` using a loop, then print the array.
 
-## Task 2: Reverse
+## 2. Reverse input
 
-Create a program that keeps asking the user to input numbers. These numbers are stored in an array. Keep asking till zero is entered. After that, the numbers are printed out in reverse order. Don’t use array methods for this but only simple loops.
+Keep asking the user for numbers until they enter `0`. Store the nonzero numbers in an array, then print them in reverse order using a loop (do not use `reverse()`).
 
-## Task 3: Average
+## 3. Average
 
-Create a program that asks the user for numbers and calculates the average for them. Numbers will be asked till the user enters a letter.
-**Hint!** You can check whether a value is numeric with `isNaN()`.
+Keep asking for numbers until the user enters a value that is not numeric. Calculate and display the average of the valid numbers. Handle the case where no numbers were entered.
 
-## Task 4: Linear Search
+## 4. Linear search
 
-Create a program that finds specific items in an array.
+Use the array `[55, 23, 6456, 324, 21, 234, 72, 21]`. Ask the user for a number, then report every index containing that value. If it is not present, report that it was not found.
 
-1. Create an array with the following items: 55, 23, 6456, 324, 21, 234, 72, 21.
-2. Ask the user what they want to search for in the integer array.
-3. Loop through the array and compare the values with the input given by the user.
-4. If the item is found, print out in which index the value was found.
-5. If the item is not found, print out a message saying the item was not found.
+## 5. Smallest and largest
 
-## Task 5: Smallest and Largest with Random Numbers
+Create an array of 100 random integers from `0` through `1000`. Use loops to find and print the smallest and largest values.
 
-1. Create a program with a 100-item array that is initialized with random numbers in the range 0-1000.
-   - To create random numbers you can use the `Math.random()` function.
-2. Find the largest value in the array using a loop and print it out.
-3. Find the smallest value in the array using a loop and print it out.
+## 6. Battleship
 
-## Task 6: Battleship
+Create a 5 × 5 board with several ships. Ask the player for row and column coordinates, report hits and misses, and continue until all ships are found. Count and display the number of shots. Reject coordinates outside the board and prevent a repeated shot from counting twice.
 
-Create a 5x5 Battleship game using a multidimensional array. Use asterisks to mark the ships. Ask the user for coordinates to shoot and give feedback to the user whether they hit a ship or not. Keep asking for as long as there are ships left. Keep count of how many shots the player needed.
-
-**Optional:** You can extend and improve the game.
-
-- You can create a bigger array and add bigger ships.
-- Limit the number of shots allowed.
-- Add functionality for setting the ships in the game.
-- etc.
+Optional extensions: add a shot limit, multiple ship lengths, or a way to place ships.

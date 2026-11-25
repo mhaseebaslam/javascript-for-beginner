@@ -1,30 +1,53 @@
-# Javascript For Beginner
+# JavaScript for Beginners
 
-This repository is designed to teach you the basics of programming and software development using JavaScript with Node.js.
+A practical, self-paced introduction to programming with JavaScript and Node.js. Each chapter pairs a runnable example with exercises so you can learn a concept, experiment with it, and practice solving problems.
 
-## Learning Outcomes
+## Learning path
 
-By the end of this course, you will:
+| Chapter | Topics | Example | Practice |
+| --- | --- | --- | --- |
+| [Getting started](setting-up/README.md) | Programs, JavaScript, Node.js, and tools | [Intro to programming](setting-up/intro_to_programming.js) · [JavaScript](setting-up/introduction-to-javascript.js) | [Setup checklist](setting-up/task.md) |
+| [Variables and operators](variables-and-operators/task.md) | Values, types, arithmetic, input, and output | [Example](variables-and-operators/variables-and-operators.js) | [Exercises](variables-and-operators/task.md) |
+| [Conditionals](conditionals/task.md) | Comparisons, Boolean logic, and `switch` | [Example](conditionals/conditionals.js) | [Exercises](conditionals/task.md) |
+| [Loops](loops/task.md) | `while`, `do...while`, and `for` | [Example](loops/loops.js) | [Exercises](loops/task.md) |
+| [Arrays](arrays/task.md) | Indexing, iteration, array methods, and nested arrays | [Example](arrays/arrays.js) | [Exercises](arrays/task.md) |
+| [Functions](functions/task.md) | Parameters, return values, and reusable logic | [Example](functions/functions.js) | [Exercises](functions/task.md) |
 
-- Be able to write solution algorithms for given problems using JavaScript.
-- Identify the phases and activities of the software development process.
-- Understand the high-level differences between common software development methodologies.
-- Recognize the need for and use of various development tools.
+## Quick start
 
-> **Pro Tip**: Programming is learned by doing. Allocate sufficient time for coding.
+1. Install [Node.js 22 or newer](https://nodejs.org/) and a code editor. [Visual Studio Code](https://code.visualstudio.com/) is a popular option.
+2. Clone this repository or download it from GitHub.
+3. Open a terminal in the repository folder and check your setup:
 
-## Topics Overview
+   ```bash
+   node --version
+   npm run check
+   npm test
+   ```
 
-1. **Intro to Programming & Software Development**:
-   - Setting up your environment
-   - Basics of software development
-2. **Variables, Conditionals, Loops, and Arrays**:
-   - Fundamental programming concepts with tasks.
-3. **Methods and Functions**:
-   - Functions, strings, and math methods.
+The examples use only Node.js built-ins; no package installation is required. Run a chapter example with `node path/to/example.js`, for example:
 
-## Useful Links
+```bash
+node arrays/arrays.js
+```
 
-- [Software Development Life Cycle Models](https://melsatar.blog/2012/03/15/software-development-life-cycle-models-and-methodologies/)
-- [Extra Programming Exercises (LeetCode)](https://leetcode.com/)
-- [JavaScript Exercises (W3Schools)](https://www.w3schools.com/js/js_exercises.asp)
+## How to study
+
+1. Read the chapter example and run it.
+2. Change a value or add a case; predict the output before running again.
+3. Try the matching `task.md` exercises without copying the example.
+4. Run `npm test` to check that all examples still parse and execute.
+
+Some exercises ask for interactive input. The chapter examples are intentionally non-interactive so they can be run together by the test command.
+
+## Repository structure
+
+Each topic folder contains a JavaScript example and a `task.md` exercise sheet. Setup material lives in `setting-up/`; the editor shortcut reference is in [keyboard-shortcuts-for-vscode.md](keyboard-shortcuts-for-vscode.md).
+
+## Contributing
+
+Corrections and beginner-friendly improvements are welcome. Keep examples runnable with the supported Node.js version, explain concepts in plain language, and avoid adding dependencies without a clear need.
+
+## License
+
+This project is distributed under the [MIT License](LICENSE).

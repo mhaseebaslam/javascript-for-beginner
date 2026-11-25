@@ -1,39 +1,25 @@
-# Variables, Operators, Read & Write
+# Variables and operators
 
-In this task you will practice creating and using variables and basic operators. Follow the instructions given to complete small programming tasks.
+Practice storing values, reading input, using arithmetic, and formatting output. Use Node.js and the built-in `readline` module for interactive tasks.
 
-## Task 1: Number Guessing Game
+## 1. Number guessing
 
-Create a simple game in which the user has to guess the secret number. The game has the following functionality:
+Create a program that chooses a random whole number from 1 to 10 and asks the player to guess it. Report whether the guess is correct, too low, or too high. Handle input that is not a whole number in the allowed range.
 
-1. Program asks the user to enter a number.
-2. Set the secret number to be the entered number plus one.
-3. Print out whether the user won or not.
+## 2. Miles to kilometers
 
-## Task 2: Distance Converter version
+Ask for a distance in miles and convert it to kilometers. Use `1 mile = 1.609344 kilometers`. Display the result once with `process.stdout.write()` and once with Node.js's built-in `util.format()`.
 
-Create a simple program that converts distance given in miles to kilometers. Print out the output with basic `write()` and also with `util.format()`.
+## 3. Convert meters
 
-## Task 3: Distance Converter version
+Ask for a distance in meters and display its equivalent in kilometers, miles, yards, feet, inches, and light-years. Show each result to three decimal places. Use:
 
-Extend the functionality from the previous task to:
+- 1 mile = 1,609.344 meters
+- 1 yard = 0.9144 meters
+- 1 foot = 0.3048 meters
+- 1 inch = 0.0254 meters
+- 1 light-year = 9.460730472 × 10¹⁵ meters
 
-1. Ask for the distance in meters.
-2. Also convert the distance to the following units:
-   - kilometers
-   - miles
-   - yards
-   - feet
-   - inches
-   - light years
-3. Show numbers with three decimals.
+## 4. Basic calculations
 
-**Hint!** If you want to align the results, you can use `padStart()` function to add empty spaces to make the string equal length. (OPTIONAL)
-
-## Task 4: Basic Calculations
-
-Create a simple program with the following functionality:
-
-1. Ask the user to input a number.
-2. Define a secret number.
-3. Perform and print out basic calculations for that number with the secret number.
+Ask for a number and define a second number in the program. Display their sum, difference, product, quotient, and remainder. Handle a zero divisor before calculating the quotient or remainder.
